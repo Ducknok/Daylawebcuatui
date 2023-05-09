@@ -4,10 +4,11 @@ h1{
     font-size: 3rem;
     opacity: 0.8;
 }
-h2,p{
+h2,p,a{
     color: #658ec6;
     font-weight: 500;
     opacity: 0.8;
+    text-decoration: none;
 }
 h3{
     color: #426696;
@@ -83,7 +84,12 @@ main{
     align-items: center;
     position: relative;
 }
-.link h2{
+
+.link .link_gmail {
+  padding-left: 2rem;
+}
+
+.link a{
     padding: 0rem 2rem;
 }
 .contact{
